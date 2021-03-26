@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "vapaat-taivaratut-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/vapaatTaivaratutReact/VapaatTaivaratutReactWebPart.js",
+          "manifest": "./src/webparts/vapaatTaivaratutReact/VapaatTaivaratutReactWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "VapaatTaivaratutReactWebPartStrings": "lib/webparts/vapaatTaivaratutReact/loc/{locale}.js"
+  }
+}
